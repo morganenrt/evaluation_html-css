@@ -1,0 +1,248 @@
+           /* navbar */
+
+nav {
+    text-align: right;
+}
+
+nav a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+            /* header */
+
+header {
+    padding-top: 50px;
+    font-size: 30px;
+    line-height: 75px;
+}
+
+header p {
+    font-size: 16px;
+    line-height: normal;
+    padding-bottom: 50px;
+}
+header img {
+    float: right;
+}
+
+.nouscontacter a {
+    text-decoration: none;
+    color: black;
+}
+
+.nouscontacter a:hover {
+    background-color: #fde293;
+    width: relative;
+    height: relative;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+
+            /* section portefolio */
+
+.portefolio h2 {
+    padding-top: 200px;
+}
+
+section, .portefolio {
+    text-align: left;
+    padding: 20px;
+}
+            
+.menu, .plus {
+    text-align: left;
+    font-size: 20px;
+    padding-top: 20px;
+}
+            
+.menu a, .plus a {
+    padding: 25px;
+    text-decoration: none;
+    color: black;
+}
+            
+.menu a:hover, .plus a:hover {
+    background-color: #fde293;
+    width: relative;
+    height: relative;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+}
+            /* section about */
+
+.overlay-image, .image2, .image3, .image4, .image5, .image6  {
+    position: relative;
+    display: inline-block; 
+    margin-left: 30px;
+    padding-top: 30px;
+}
+            
+.overlay-image .hover-image {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    transition: opacity 0.25s ease-in-out;
+    background-color: rgba(244,222,37,0.8);
+    color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+              
+.overlay-image:hover .hover-image {
+    opacity: 1;
+}
+       
+.plus {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 100px;
+}
+
+            /* section partners */
+
+.section, .partners {
+    display: flex;
+}
+
+            /* section about */
+
+.personne2 {
+    margin-left: 600px;
+    margin-top: -620px;
+}
+
+.plus {
+    text-align: center;
+}
+
+.plus, .p {
+    font-size: 20px;
+}
+
+            /* section blog 
+            pas réussi */
+                        /* section contact*/
+
+.formulaire a:hover {
+    background-color: #fde293;
+    width: relative;
+    height: relative;
+    transition: background-color 1s;
+    -webkit-transition: background-color 1s;
+    -moz-transition: background-color 1s;
+    -ms-transition: background-color 1s;
+    -o-transition: background-color 1s;
+    text-decoration: none;
+}
+
+.contact p {
+    margin-top: -100px;
+}
+
+.contact h4 {
+    margin-top: -50px;
+}
+
+.formulaire {
+    position: absolute;
+    margin-top: -100px;
+}
+
+.icone {
+    margin-top: 400px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.reseaux {
+    display: flex;
+    margin-left: 200px;
+}
+
+            /* section footer */
+
+footer {
+    background-color: black;
+    width: 992px;
+    height: 177px;
+    margin-top: 900px;
+    position: absolute;
+}
+            
+footer img {
+    position: absolute;
+    padding-left: 300px;
+}
+            
+footer h5 {
+    color: white;
+    position: absolute;
+    padding-top: 20px;
+    padding-left: 550px;
+}
+            
+.logo {
+    position: absolute;
+    margin-top: 70px;
+    margin-left: -295px;
+}
+            
+footer p {
+    color: white;
+    position: absolute;
+    padding-top: 70px;
+    padding-left: 100px;
+}
+            
+.fleche {
+    position: absolute;
+    margin-left: 500px;
+    padding-top: 90px;
+}
+
+
+@font-face {
+    font-family: montserrat;
+    src: url(Fonts/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Fonts/Montserrat-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Fonts/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: montserrat;
+    src: url(Fonts/Montserrat-Italic.ttf);
+}
